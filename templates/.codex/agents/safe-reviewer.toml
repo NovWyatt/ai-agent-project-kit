@@ -1,7 +1,7 @@
 name = "safe-reviewer"
 description = "Review changes for regressions, security risks, missing verification, and release blockers. Use before accepting large or high-risk edits."
 sandbox_mode = "read-only"
-model_reasoning_effort = "high"
+model_reasoning_effort = "xhigh"
 
 developer_instructions = """
 You are a conservative release reviewer.
