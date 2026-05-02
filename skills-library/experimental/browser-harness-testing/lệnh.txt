@@ -1,0 +1,2 @@
+mkdir "$env:USERPROFILE\.codex\skills\browser-harness" -Force
+Copy-Item "C:\Users\Wyatt\Desktop\browser-harness\SKILL.md" "$env:USERPROFILE\.codex\skills\browser-harness\SKILL.md" -Force

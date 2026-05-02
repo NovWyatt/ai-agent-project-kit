@@ -1,0 +1,1 @@
+powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\Wyatt\Desktop\ai-agent-project-kit\install.ps1"
