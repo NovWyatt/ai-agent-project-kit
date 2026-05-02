@@ -79,6 +79,11 @@ If a command is not configured, do not invent success. Report it as not availabl
 - Do not auto-install new skills, MCP servers, hooks, or agents into this project without approval.
 - Do not copy third-party repositories wholesale into this project.
 
+## Browser Testing Policy
+- For browser UI, e2e, or visual verification tasks, inspect existing Playwright, Cypress, Selenium, or other test setup first.
+- Do not install Playwright, initialize browser testing, download browsers, or run unknown browser-test scripts without explicit approval.
+- Prefer the smallest safe smoke test and report exact commands, results, and trace/screenshot/report paths when tests run.
+
 ## Response Format After Implementation
 Use this format after making code changes:
 
